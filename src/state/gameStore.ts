@@ -7,6 +7,8 @@ type GameStore = {
   setAge: (age: GameState["age"]) => void;
   nextRound: () => void;
   adjustDucats: (realm: string, delta: number) => void;
+  advanceTurnOrder: () => void;
+  grantPrestige: (realm: string, amount: number) => void;
 };
 
 export const useGameStore = create<GameStore>((set) => ({
@@ -26,4 +28,23 @@ export const useGameStore = create<GameStore>((set) => ({
       }
     };
   }),
+  advanceTurnOrder: () => set((s) => {
+    const next = [...s.game.turnOrder];
+    next.push(next.shift()!);
+    return { game: { ...s.game, turnOrder: next } };
+  }),
+  grantPrestige: (realm: string, amount: number) =>
+    set((s) => {
+      const p = s.game.players[realm];
+      if (!p) return s;
+      return {
+        game: {
+          ...s.game,
+          players: {
+            ...s.game.players,
+            [realm]: { ...p, prestige: p.prestige + amount }
+          }
+        }
+      };
+    }),
 }));
