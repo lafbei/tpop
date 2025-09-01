@@ -1,0 +1,197 @@
+{
+  "scenario": "S2-01: The Grand Campaign",
+  "timePeriod": "1444–1821",
+  "age": "I",
+  "round": 1,
+  "turnOrder": [
+    "Ottomans",
+    "France",
+    "Castile",
+    "England",
+    "Austria",
+    "Poland"
+  ],
+  "firstPlayer": "Ottomans",
+  "players": {
+    "Ottomans": {
+      "color": "green",
+      "provinces": ["Edirne (L)", "Hüdavendigar (L)", "Selanik", "Yanya", "Sofya", "Silistre", "Ankara", "Izmir", "Kütahya", "Menteşe", "Teke", "Amasya", "Sivas"],
+      "influence": {
+        "Karaman": 2,
+        "Kurdistan": 1,
+        "Rum": 1,
+        "Wallachia & Bulgaria": 1,
+        "Serbia & Albania": 1
+      },
+      "stateReligion": "Muslim",
+      "claims": ["Macedonia & Thrace"],
+      "tradeNodes": ["Black Sea N", "Alexandria N"],
+      "military": {
+        "armies": { "Macedonia & Thrace": ["2 Infantry", "1 Cavalry"] },
+        "fleets": { "Aegean Sea": ["1 L. Ship", "3 Galleys"] }
+      },
+      "monarchPower": { "a": 3, "b": 3, "c": 3 },
+      "ducats": 15,
+      "stability": 0,
+      "ideas": [],
+      "missions": ["2 starting Missions chosen"],
+      "prestige": 0
+    },
+    "France": {
+      "color": "blue",
+      "provinces": ["Paris (L)", "Champagne (L)", "Lyon (L)", "Bourgogne (L)", "Provence (L)", "Toulouse", "Montpellier", "Maine", "Normandie", "Caux", "Aquitaine (L)", "Loire (L)"],
+      "vassals": ["Milano (L)", "Cremona", "Nantes", "Rennes"],
+      "influence": {
+        "Brittany": 2,
+        "Scotland": 2,
+        "Lombardy": 1,
+        "Rhineland": 1,
+        "Central Italy": 1
+      },
+      "stateReligion": "Catholic",
+      "claims": ["Seine"],
+      "tradeNodes": ["Bordeaux N", "Genoa N"],
+      "military": {
+        "armies": {
+          "Seine": ["2 Infantry", "1 Cavalry", "1 Artillery"],
+          "Aquitaine": ["2 Infantry"]
+        },
+        "fleets": {
+          "Gulf of Lion": ["1 L. Ship"],
+          "Bay of Biscay": ["1 L. Ship"]
+        }
+      },
+      "monarchPower": { "a": 3, "b": 3, "c": 3 },
+      "ducats": 15,
+      "stability": 0,
+      "ideas": [],
+      "missions": ["2 starting Missions chosen"],
+      "prestige": 0
+    },
+    "Castile": {
+      "color": "yellow",
+      "provinces": ["Toledo (L)", "Burgos (L)", "Sevilla (L)", "Córdoba", "Granada", "Galicia", "Asturias", "Extremadura", "Murcia", "Navarra", "Barcelona (v)"],
+      "distantProvinces": ["Canarias"],
+      "influence": {
+        "Portugal": 1,
+        "Naples": 1,
+        "North Africa": 1
+      },
+      "stateReligion": "Catholic",
+      "claims": ["Andalucia"],
+      "tradeNodes": ["Sevilla N"],
+      "military": {
+        "armies": { "Castile": ["2 Infantry", "1 Cavalry"] },
+        "fleets": {
+          "Sevilla": ["2 L. Ships"],
+          "Central Atlantic": ["1 L. Ship"]
+        }
+      },
+      "monarchPower": { "a": 3, "b": 3, "c": 3 },
+      "ducats": 15,
+      "stability": 0,
+      "ideas": [],
+      "missions": ["2 starting Missions chosen"],
+      "prestige": 0
+    },
+    "England": {
+      "color": "red",
+      "provinces": ["London (L)", "Northumberland", "York", "Lancashire", "Pale", "Shrewsbury", "Wales", "Wessex", "Oxford", "Essex", "Picardie"],
+      "influence": {
+        "Scotland": 3,
+        "Netherlands": 2,
+        "Portugal": 1
+      },
+      "stateReligion": "Catholic",
+      "allies": ["Portugal"],
+      "claims": ["Ireland"],
+      "tradeNodes": ["English Channel N", "North Sea N"],
+      "military": {
+        "armies": { "East Anglia": ["2 Infantry"] },
+        "fleets": {
+          "Doggerbank": ["1 L. Ship"],
+          "English Channel": ["2 L. Ships"],
+          "Eastern Atlantic": ["1 L. Ship"]
+        }
+      },
+      "monarchPower": { "a": 3, "b": 3, "c": 3 },
+      "ducats": 15,
+      "stability": 0,
+      "ideas": [],
+      "missions": ["2 starting Missions chosen"],
+      "prestige": 0
+    },
+    "Austria": {
+      "color": "white",
+      "provinces": ["Wien (L)", "Tirol (L)", "Krain", "Styria", "Carinthia", "Salzburg", "Linz", "Rijeka", "Zagreb"],
+      "vassals": ["Bohemia", "Hungary (Royal Hungary core)", "Sundgau"],
+      "influence": {
+        "Bohemia": 1,
+        "Royal Hungary": 1,
+        "Bavaria & Swabia": 2,
+        "Rhineland": 1
+      },
+      "stateReligion": "Catholic",
+      "emperor": true,
+      "imperialAuthority": 3,
+      "manpowerBonus": 3,
+      "taxIncomeBonus": 3,
+      "claims": ["Austria"],
+      "tradeNodes": ["Wien N"],
+      "military": {
+        "armies": { "Austria": ["2 Infantry", "1 Cavalry"] },
+        "fleets": {}
+      },
+      "monarchPower": { "a": 3, "b": 3, "c": 3 },
+      "ducats": 15,
+      "stability": 0,
+      "ideas": [],
+      "missions": ["2 starting Missions chosen"],
+      "prestige": 0
+    },
+    "Poland": {
+      "color": "purple",
+      "provinces": ["Kraków (L)", "Poznań", "Lublin", "Sandomierz", "Kalisz", "Sieradz", "Lwów", "Podole"],
+      "vassals": ["Warszawa", "Suceava", "Basarabia"],
+      "influence": {
+        "Mazovia & Malopolska": 1,
+        "Lithuania": 2,
+        "Red Ruthenia": 1,
+        "Bohemia": 1,
+        "Royal Hungary": 1
+      },
+      "stateReligion": "Catholic",
+      "marriages": ["Lithuania"],
+      "tradeNodes": ["Krakow N", "Kiev N"],
+      "military": {
+        "armies": { "Malopolska & Mazovia": ["2 Infantry"] }
+      },
+      "monarchPower": { "a": 3, "b": 3, "c": 3 },
+      "ducats": 15,
+      "stability": 0,
+      "ideas": [],
+      "missions": ["2 starting Missions chosen (replace 3A with 2F)"],
+      "prestige": 0,
+      "ruler": "Interregnum"
+    }
+  },
+  "global": {
+    "papalCuria": {
+      "Castile": "C1",
+      "Austria": "C2",
+      "France": "C3",
+      "England": "C4",
+      "Poland": "C5"
+    },
+    "eventDeck": {
+      "ageI_firstHalf": ["11A-1", "12A-1", "13A-1", "14A-1", "156B", "157B", "158B", "160B", "101-1", "102-1", "103-1", "104-1", "106-1", "107-1"],
+      "ageI_secondHalf": ["11A-2", "12A-2", "13A-2", "14A-2", "154B", "155B", "159B", "162B", "101-2", "102-2", "103-2", "104-2", "106-2", "107-2"],
+      "ageII": ["21A-1", "21A-2", "22A-1", "22A-2", "23A-1", "23A-2", "24A-1", "24A-2", "24A-3", "24A-4", "252B", "253B", "254B", "255B", "256B", "257B", "258B", "259B", "260B", "261B", "262B", "263B", "264B"],
+      "ageIII": ["31A-1", "31A-2", "32A-1", "32A-2", "33A-1", "33A-2", "34A-1", "34A-2", "34A-3", "315-1", "316-1", "317-1", "352B", "353B", "354B", "355B", "356B", "357B", "358B", "359B", "360B", "361B", "362B", "363B", "364B"],
+      "ageIV": ["41A-1", "41A-2", "42A-1", "42A-2", "43A-1", "43A-2", "44A-1", "44A-2", "415-1", "416-1", "417-1", "452B", "453B", "454B", "455B", "456B", "457B", "458B"]
+    },
+    "powerStruggles": ["The Italian Wars", "Struggle for the Balkans", "Thirty Years' War", "War of Spanish Succession", "Seven Years’ War", "Napoleonic Wars"],
+    "dynamicNPRs": ["Denmark", "Portugal", "Mamluks"]
+  },
+  "victoryCondition": "Most Prestige (0) at the end of Age IV, unless endgame triggered early"
+}
