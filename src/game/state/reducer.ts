@@ -19,18 +19,6 @@ const makePlayer = (id: PlayerId, init?: Partial<PlayerState>): PlayerState => (
   prestige: init?.prestige ?? 0, // <-- seed
 });
 
-const mergePlayer = (base: PlayerState, patch?: Partial<PlayerState>): PlayerState => {
-  if (!patch) return base;
-  return {
-    ...base,
-    ...patch,
-    meta: { ...base.meta, ...(patch.meta ?? {}) },
-    points: { ...base.points, ...(patch.points ?? {}) },
-    economy: { ...base.economy, ...(patch.economy ?? {}) },
-    prestige: patch.prestige ?? base.prestige,
-  };
-};
-
 export const makeInitialGameState = (overrides?: Partial<GameState>): GameState => {
   const basePlayers = PlayerIds.reduce((acc, id) => {
     acc[id] = makePlayer(id, overrides?.players?.[id]);
@@ -129,7 +117,7 @@ export const reducer = (state: GameState, action: Action): GameState => {
       }
       let { turn, round } = state.turn;
       round += 1;
-      if (round > state.roundsPerTurn) { turn += 1; round = 1; }
+      if (round > state.roundsPerAge) { turn += 1; round = 1; }
       return { ...state, players, turn: { turn, round } };
     }
 
