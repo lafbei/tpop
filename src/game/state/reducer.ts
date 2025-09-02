@@ -14,8 +14,8 @@ const makePlayer = (id: PlayerId, init?: Partial<PlayerState>): PlayerState => (
     stability: 0,
     ...(init?.meta ?? {}),
   },
-  points: { adm: 0, dip: 0, mil: 0, ...(init?.points ?? {}) },
-  economy: { treasury: 0, taxIncome: 0, upkeep: 0, ...(init?.economy ?? {}) },
+  points: { adm: 3, dip: 3, mil: 3, ...(init?.points ?? {}) },
+  economy: { treasury: 15, taxIncome: 0, upkeep: 0, ...(init?.economy ?? {}) },
   prestige: init?.prestige ?? 0, // <-- seed
 });
 
@@ -101,8 +101,7 @@ export const reducer = (state: GameState, action: Action): GameState => {
       for (const id of Object.keys(players) as PlayerId[]) {
         const p = players[id];
         const net = (p.economy.taxIncome || 0) - (p.economy.upkeep || 0);
-        const stabilityBonus = p.meta.stability * 0.1;
-        const treasury = (p.economy.treasury || 0) + net * (1 + stabilityBonus);
+        const treasury = (p.economy.treasury || 0) + net;
         const mpBase = 1 + Math.max(0, p.meta.stability);
         players[id] = {
           ...p,
