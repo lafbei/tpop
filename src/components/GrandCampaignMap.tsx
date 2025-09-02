@@ -7,7 +7,7 @@ import { ProvinceLocations } from "../data/provinceLocations";
 import { TradeNodeLocations } from "../data/tradeNodeLocations";
 import { Sprites } from "../assets/sprites";
 import { tokenSizes } from "../data/tokensizes";
-import { Piece } from "../map/Piece";
+import { PieceSprite } from "../map/Piece";
 
 type Locs = Record<string, { x: number; y: number }>;
 
@@ -96,10 +96,10 @@ export default function GrandCampaignMap({ captureMode = false, showPins = true,
             style={{ width: imgSize.w, height: imgSize.h }}
           >
             {Object.entries(ProvinceLocations).map(([name, coords]) => (
-                <Piece key={name} imagePath={Sprites.greentown} mapLocation={coords} size={tokenSizes.small.width} />
+                <PieceSprite key={name} imagePath={Sprites.greentown} mapLocation={coords} size={tokenSizes.small.width} />
             ))}
             {Object.entries(TradeNodeLocations).map(([name, coords]) => (
-                <Piece key={name} imagePath={Sprites.yellowtown} mapLocation={coords} size={tokenSizes.large.width} />
+                <PieceSprite key={name} imagePath={Sprites.yellowtown} mapLocation={coords} size={tokenSizes.large.width} />
             ))}
 
             {/* province pins */}

@@ -1,0 +1,7 @@
+**/dist
+**/*.css
+**/*.d.ts
+**/*.json
+**/*.less
+**/*.html
+**/*.md

@@ -1,5 +1,4 @@
-// Piece.tsx
-export function Piece({
+export function PieceSprite({
   imagePath,
   mapLocation, // { x: %, y: % }
   size,
