@@ -1,11 +1,25 @@
-type PieceProps = {
+// Piece.tsx
+export function Piece({
+  imagePath,
+  mapLocation, // { x: %, y: % }
+  size,
+}: {
   imagePath: string;
-  mapLocation: { x: number; y: number; };
-  size: { width: number; height: number; };
-};
-
-export function Piece({ imagePath, mapLocation, size }: PieceProps) {
-    return (
-        <div className="piece" style={{ position: 'absolute', left: mapLocation.x + '%', top: mapLocation.y + '%', width: size.width, height: size.height, backgroundImage: `url(${imagePath})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', transform: 'translate(-50%, -50%)' }} />
-    );
+  mapLocation: { x: number; y: number };
+  size: number | string;
+}) {
+  return (
+    <img
+      src={imagePath}
+      className="absolute pointer-events-auto"
+      style={{
+        left: `${mapLocation.x}%`,
+        top: `${mapLocation.y}%`,
+        width: typeof size === "number" ? `${size}px` : size,
+        height: typeof size === "number" ? `${size}px` : size,
+        transform: "translate(-50%, -50%)",
+      }}
+      alt=""
+    />
+  );
 }

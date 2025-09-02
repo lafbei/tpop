@@ -1,56 +1,56 @@
 export const Locations = {
     // America
-    GreatPlains:    { x: 3.45, y: 7.15 },
-    Mississippi:    { x: 4.5, y: 10.1 },
-    HudsonBay:      { x: 5.1, y: 3.79 },
-    GreatLakes:     { x: 5.37, y: 7 },
-    Canada:         { x: 7, y: 5.1 },
-    NewEngland:     { x: 8.24, y: 7.22 },
-    Virginia:       { x: 6.76, y: 8.22 },
-    California:     { x: 2.15, y: 10.2 },
-    Florida:        { x: 6.09, y: 10.85 },
-    Mexico:         { x: 3.67, y: 13.32 },
-    Antilles:       { x: 7.34, y: 12.87 },
-    CentralAmerica: { x: 5.51, y: 14.03 },
-    NewGranada:     { x: 7.68, y: 15.68 },
-    Guyana:         { x: 9.43, y: 16.24 },
-    Quito:          { x: 6.58, y: 18.47 },
-    Amazonas:       { x: 9.08, y: 19.03 },
-    Cuzco:          { x: 7.47, y: 20.92 },
+    GreatPlains:    { x: 3.45, y: 7.25 },
+    Mississippi:    { x: 4.5, y: 10.22 },
+    HudsonBay:      { x: 5.1, y: 3.85 },
+    GreatLakes:     { x: 5.37, y: 7.15 },
+    Canada:         { x: 7, y: 5.2 },
+    NewEngland:     { x: 8.24, y: 7.3 },
+    Virginia:       { x: 6.76, y: 8.3 },
+    California:     { x: 2.15, y: 10.3 },
+    Florida:        { x: 6.09, y: 10.95 },
+    Mexico:         { x: 3.67, y: 13.42 },
+    Antilles:       { x: 7.34, y: 13 },
+    CentralAmerica: { x: 5.51, y: 14.18 },
+    NewGranada:     { x: 7.68, y: 15.88 },
+    Guyana:         { x: 9.43, y: 16.44 },
+    Quito:          { x: 6.58, y: 18.62 },
+    Amazonas:       { x: 9.08, y: 19.2 },
+    Cuzco:          { x: 7.47, y: 21.1 },
     UpperPeru:      { x: 8.69, y: 22.5 },
-    Chile:          { x: 7.67, y: 26.13 },
-    LaPlata:        { x: 9.34, y: 25.89 },
-    MinasGerais:    { x: 10.49, y: 21.08 },
-    RioDeJaneiro:   { x: 11.59, y: 23.71 },
-    Bahia:          { x: 12.23, y: 21.02 },
-    Pernambuco:     { x: 12.23, y: 18.38 },
+    Chile:          { x: 7.67, y: 26.4 },
+    LaPlata:        { x: 9.34, y: 26.1 },
+    MinasGerais:    { x: 10.49, y: 21.28 },
+    RioDeJaneiro:   { x: 11.59, y: 23.91 },
+    Bahia:          { x: 12.23, y: 21.22 },
+    Pernambuco:     { x: 12.23, y: 18.58 },
 
     // Scotland
-    Perth:          { x: 27.02, y: 21.15 },
-    Lothian:        { x: 28.21, y: 23.88 },
-    Aberdeen:       { x: 29.25, y: 19.35 },
-    Ayrshire:       { x: 25.65, y: 25.45 },
+    Perth:          { x: 27.02, y: 21.38 },
+    Lothian:        { x: 28.21, y: 24.1 },
+    Aberdeen:       { x: 29.25, y: 19.53 },
+    Ayrshire:       { x: 25.65, y: 25.72 },
 
     // Northcumbria
-    Northumberland: { x: 30.06, y: 26.2 },
-    Lancashire:     { x: 29.12, y: 30.87 },
-    York:           { x: 30.65, y: 29.87 },
+    Northumberland: { x: 30.06, y: 26.5 },
+    Lancashire:     { x: 29.12, y: 31.18 },
+    York:           { x: 30.65, y: 30.2 },
 
     // Ireland
-    Tyrone:         { x: 20.74, y: 27.03 },
-    Pale:           { x: 22.57, y: 31.11 },
-    Leinster:       { x: 22.07, y: 34.60 },
-    Cork:           { x: 19.75, y: 35.78 },
+    Tyrone:         { x: 20.74, y: 27.37 },
+    Pale:           { x: 22.57, y: 31.41 },
+    Leinster:       { x: 22.07, y: 34.98 },
+    Cork:           { x: 19.75, y: 36.2 },
 
     //Wales & Wessex
-    Wales:          { x: 26.55, y: 36 },
-    Wessex:         { x: 28.14, y: 41.22 },
-    Shrewsbury:     { x: 29.38, y: 34.38 },
+    Wales:          { x: 26.55, y: 36.43 },
+    Wessex:         { x: 28.14, y: 41.7 },
+    Shrewsbury:     { x: 29.38, y: 34.75 },
 
     // EastAnglia
-    Oxford:         { x: 31.45, y: 36.93 },
-    Essex:          { x: 35.17, y: 37.43 },
-    London:         { x: 33.16, y: 38.89 },
+    Oxford:         { x: 31.45, y: 37.3 },
+    Essex:          { x: 35.17, y: 37.77 },
+    London:         { x: 33.17, y: 39.25 },
 
     // Leon
     Galicia:        { x: 20.91, y: 63.19 },
@@ -138,44 +138,42 @@ export const Locations = {
     Friesland:      { x: 43.65, y: 33.68 },
     Gelre:          { x: 43.94, y: 36.96 },
 
-  // Lombardy
-  Piedmont: { x: 0, y: 0 },
-  Brescia: { x: 0, y: 0 },
-  Genoa: { x: 0, y: 0 },
-  Milan: { x: 0, y: 0 },
-  Mantua: { x: 0, y: 0 },
-  Parma: { x: 0, y: 0 },
+    // Lombardy
+    Piedmont: { x: 45.65, y: 63.23 },
+    Brescia: { x: 50.13, y: 60.88 },
+    Genoa: { x: 47.89, y: 65.03 },
+    Milan: { x: 47.87, y: 60.32 },
+    Mantua: { x: 50.8, y: 64.15 },
+    Parma: { x: 49.62, y: 64.59 },
+    Cremona: { x: 48.8, y: 62.05 },
 
     // Venetia
-  Verona: { x: 0, y: 0 },
-  Venice: { x: 0, y: 0 },
-  Friuli: { x: 0, y: 0 },
-  Trent: { x: 0, y: 0 },
-  Modena: { x: 0, y: 0 },
+    Verona: { x: 52.27, y: 61.94 },
+    Venezia: { x: 54.3, y: 62.97 },
+    Treviso: { x: 54.12, y: 60.29 },
+    Krain: { x: 55.82, y: 61.02 },
 
-  // Central Italy
-  Tuscany: { x: 0, y: 0 },
-  Siena: { x: 0, y: 0 },
-  Umbria: { x: 0, y: 0 },
-  Ancona: { x: 0, y: 0 },
-  Rome: { x: 0, y: 0 },
+    // Central Italy
+    Siena: { x: 51.9, y: 71.4 },
+    Ancona: { x: 55.44, y: 68.83 },
+    Roma: { x: 53.88, y: 74.38 },
+    Pisa: { x: 50.73, y: 69.49 },
+    Firenze: { x: 51.88, y: 68.16 },
+    Ferrara: { x: 53.28, y: 65.33 },
 
-  // Naples
-  Naples: { x: 0, y: 0 },
-  Abruzzi: { x: 0, y: 0 },
-  Apulia: { x: 0, y: 0 },
-  Calabria: { x: 0, y: 0 },
-  SicilyPalermo: { x: 0, y: 0 },
-  SicilyMessina: { x: 0, y: 0 },
-  Sardinia: { x: 0, y: 0 },
-  Corsica: { x: 0, y: 0 },
+    // Naples
+    Napoli: { x: 56.82, y: 76.85 },
+    Salerno: { x: 58.43, y: 79.5 },
+    Salento: { x: 61.58, y: 75.56 },
 
-  // ——— SWITZERLAND ———
-  Geneva: { x: 0, y: 0 },
-  Valais: { x: 0, y: 0 },
-  Bern: { x: 0, y: 0 },
-  Zurich: { x: 0, y: 0 },
-  Grisons: { x: 0, y: 0 },
+  // Sicily
+  Palermo: { x: 0, y: 0 },
+  Messina: { x: 0, y: 0 },
+  Malta: { x: 0, y: 0 },
+
+    // Corsica & Sardinia
+    Corsica: { x: 48.71, y: 71.07 },
+    Cagliari: { x: 48.4, y: 80.6 },
 
   // ——— AUSTRIA & ALPINE ———
   Tyrol: { x: 0, y: 0 },
@@ -202,11 +200,37 @@ export const Locations = {
   Altmark: { x: 0, y: 0 },
   Luneburg: { x: 0, y: 0 },
   Hanover: { x: 0, y: 0 },
-  Westphalia: { x: 0, y: 0 },
-  Munster: { x: 0, y: 0 },
-  Cologne: { x: 0, y: 0 },
-  Trier: { x: 0, y: 0 },
-  Mainz: { x: 0, y: 0 },
+
+  // Westphalia
+  Munster: { x: 46.61, y: 39.31 },
+  Kleve: { x: 44.86, y: 40.23 },
+  Köln: { x: 44.74, y: 43.1 },
+  Trier: { x: 44.93, y: 46.15 },
+  Frankfurt: { x: 47.77, y: 44.39 },
+
+  // Lorraine
+  Mainz: { x: 47.87, y: 47.11 },
+  Pfalz: { x: 45.98, y: 48.47 },
+  Lorraine: { x: 43.95, y: 50.35 },
+  Sundgau: { x: 45.23, y: 52.52 },
+
+  // Switzerland
+  Vaud: { x: 44.58, y: 56.97 },
+  Bern: { x: 45.84, y: 56.05 },
+  StGallen: { x: 48.01, y: 55.47 },
+
+  // Southern Morocco
+  Sus: { x: 23.69, y: 98.05 },
+  Tafilalt: { x: 26.98, y: 97.42 },
+
+  // Northern Morocco
+  Marrakech: { x: 21.05, y: 96.21 },
+  Fez: { x: 26.84, y: 91.94 },
+  Gharb: { x: 21.47, y: 92.82 },
+  Tangiers: { x: 23.83, y: 89.14 },
+  Ceuta: { x: 25.37, y: 88.52 },
+
+
   Palatinate: { x: 0, y: 0 },
   Wurzburg: { x: 0, y: 0 },
   Nuremberg: { x: 0, y: 0 },

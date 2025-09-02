@@ -1,5 +1,5 @@
-// src/App.tsx (temp)
-import GrandCampaignDebug from "./components/GrandCampaignDebug";
+import GrandCampaignMap from "./components/GrandCampaignMap";
+
 export default function App() {
-  return <GrandCampaignDebug />;
+  return <GrandCampaignMap captureMode={true} />;
 }
