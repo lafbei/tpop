@@ -1,11 +1,11 @@
 import MapBoard from "../components/MapBoard";
-import { Locations } from "../data/locations";
+import { ProvinceLocations } from "../data/provinceLocations";
 
 export default function Board() {
   return (
     <div className="w-screen h-screen">
       <MapBoard
-        locations={Locations}
+        locations={ProvinceLocations}
         captureMode={true} // toggle off in “play mode”
         onProvinceClick={(name) => console.log("Clicked:", name)}
         units={{

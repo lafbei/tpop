@@ -1,4 +1,4 @@
-export const Locations = {
+export const ProvinceLocations = {
     // America
     GreatPlains:    { x: 3.45, y: 7.25 },
     Mississippi:    { x: 4.5, y: 10.22 },

@@ -1,5 +1,3 @@
-import React from "react";
-
 export type Locs = Record<string, { x: number; y: number }>;
 
 type Props = {

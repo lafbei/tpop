@@ -3,7 +3,8 @@ import { MapInteractionCSS } from "react-map-interaction";
 import state from "../data/s2-01-grand-campaign.json";
 import type { GameState } from "../types/eu-pop";
 import mapImg from "../assets/maps/mainmap.jpg";
-import { Locations } from "../data/locations";
+import { ProvinceLocations } from "../data/provinceLocations";
+import { TradeNodeLocations } from "../data/tradeNodeLocations";
 import { Sprites } from "../assets/sprites";
 import { tokenSizes } from "../data/tokensizes";
 import { Piece } from "../map/Piece";
@@ -54,7 +55,7 @@ export default function GrandCampaignMap({ captureMode = false, showPins = true,
     for (const [realm, p] of Object.entries(game.players)) {
       const armies = p.military?.armies ?? {};
       for (const [area, units] of Object.entries(armies)) {
-        const loc = (Locations as Locs)[area];
+        const loc = (ProvinceLocations as Locs)[area];
         if (!loc) continue;
         out.push({ realm, area, x: loc.x, y: loc.y, label: `${realm}: ${units.join(", ")}` });
       }
@@ -84,7 +85,7 @@ export default function GrandCampaignMap({ captureMode = false, showPins = true,
             onMouseMove={(e) => {
               const p = percentFromEvent(e);
               if (!p) return;
-              setHovered(nearest(Locations as Locs, p.x, p.y, 1.5));
+              setHovered(nearest(ProvinceLocations as Locs, p.x, p.y, 1.5));
             }}
             onMouseLeave={() => setHovered(null)}
           />
@@ -94,13 +95,16 @@ export default function GrandCampaignMap({ captureMode = false, showPins = true,
             className="absolute left-0 top-0 pointer-events-none"
             style={{ width: imgSize.w, height: imgSize.h }}
           >
-            {Object.entries(Locations).map(([name, coords]) => (
+            {Object.entries(ProvinceLocations).map(([name, coords]) => (
                 <Piece key={name} imagePath={Sprites.greentown} mapLocation={coords} size={tokenSizes.small.width} />
+            ))}
+            {Object.entries(TradeNodeLocations).map(([name, coords]) => (
+                <Piece key={name} imagePath={Sprites.yellowtown} mapLocation={coords} size={tokenSizes.large.width} />
             ))}
 
             {/* province pins */}
             {showPins &&
-              Object.entries(Locations as Locs).map(([name, p]) => (
+              Object.entries(ProvinceLocations as Locs).map(([name, p]) => (
                 <button
                   key={name}
                   className={`absolute -translate-x-1/2 -translate-y-1/2 pointer-events-auto rounded-full border
@@ -131,12 +135,12 @@ export default function GrandCampaignMap({ captureMode = false, showPins = true,
               ))}
 
             {/* hover tooltip */}
-            {hovered && (Locations as Locs)[hovered] && (
+            {hovered && (ProvinceLocations as Locs)[hovered] && (
               <div
                 className="absolute -translate-x-1/2 -translate-y-full bg-black/80 border border-white/30 text-xs px-2 py-1 rounded pointer-events-none"
                 style={{
-                  left: `${(Locations as Locs)[hovered].x}%`,
-                  top: `${(Locations as Locs)[hovered].y}%`,
+                  left: `${(ProvinceLocations as Locs)[hovered].x}%`,
+                  top: `${(ProvinceLocations as Locs)[hovered].y}%`,
                 }}
               >
                 {hovered}

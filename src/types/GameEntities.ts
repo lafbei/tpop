@@ -9,6 +9,7 @@ export type TradeNodeID = string; // e.g., "trade_node_1"
 export type MerchantID = string; // e.g., "merchant_1"
 export type SeaID = string; // e.g., "sea_1"
 export type Port = false | 'normal' | 'fortified';
+export type Location = { x: number; y: number };
 
 // --- Main Interfaces ---
 export interface Province {
@@ -58,4 +59,6 @@ export interface Sea {
   connectedProvinces: ProvinceID[];
   connectedAreas: AreaID[];
   connectedDistantProvinces: DistantProvinceID[];
+  tradeSlots: number[];
+  numberOfTradeSlots: number;
 }
