@@ -69,36 +69,35 @@ export const Locations = {
     Coromandel:    { x: 10.21, y: 68.25 },
 
     // Far East
-    Burma:         { x: 0, y: 0 },
-    Siam:          { x: 0, y: 0 },
+    Burma:         { x: 2.08, y: 79.98 },
+    Siam:          { x: 3.47, y: 81.71 },
 
-    Pasai:         { x: 0, y: 0 },
-    Malacca:       { x: 0, y: 0 },
-    Brunei:        { x: 0, y: 0 },
-    SouthSumatra:  { x: 0, y: 0 },
-    Java:          { x: 0, y: 0 },
-    Timor:         { x: 0, y: 0 },
+    Pasai:         { x: 2.56, y: 85.68 },
+    Malacca:       { x: 3.84, y: 85.28 },
+    Brunei:        { x: 5.67, y: 84.94 },
+    SouthSumatra:  { x: 3.64, y: 87.92 },
+    Java:          { x: 5.19, y: 88.63 },
+    Timor:         { x: 7.56, y: 89.33 },
 
-    Moluccas:      { x: 0, y: 0 },
-    Vogelkop:      { x: 0, y: 0 },
-    Papua:         { x: 0, y: 0 },
+    Moluccas:      { x: 7.73, y: 86.54 },
+    Vogelkop:      { x: 9.43, y: 87.03 },
+    Papua:         { x: 11.28, y: 88.03 },
 
-    Philippines:   { x: 0, y: 0 },
+    Philippines:   { x: 7.44, y: 81.6 },
 
-    Beijing:       { x: 0, y: 0 },
-    XiAn:          { x: 0, y: 0 },
-    Chengdu:       { x: 0, y: 0 },
-    Hangzhou:      { x: 0, y: 0 },
-    Canton:        { x: 0, y: 0 },
+    Beijing:       { x: 5.94, y: 73.27 },
+    XiAn:          { x: 4.28, y: 74.81 },
+    Chengdu:       { x: 2.91, y: 77.08 },
+    Hangzhou:      { x: 6.29, y: 77.08 },
+    Canton:        { x: 4.55, y: 78.52 },
 
-    Korea:         { x: 0, y: 0 },
-    Kyushu:        { x: 0, y: 0 },
-    Honshu:        { x: 0, y: 0 },
+    Korea:         { x: 8.02, y: 74.26 },
+    Kyushu:        { x: 9.25, y: 75.96 },
+    Honshu:        { x: 10.52, y: 74.08 },
 
-    WesternAustralia:  { x: 0, y: 0 },
-    EasternAustralia:  { x: 0, y: 0 },
-    SouthernAustralia: { x: 0, y: 0 },
-
+    WesternAustralia:  { x: 6.95, y: 95.6 },
+    EasternAustralia:  { x: 12.56, y: 94.4 },
+    SouthernAustralia: { x: 11.12, y: 96.75 },
 
     // Scotland
     Perth:          { x: 27.02, y: 21.38 },
@@ -229,26 +228,26 @@ export const Locations = {
     Krain:          { x: 55.82, y: 61.02 },
 
     // Central Italy
-    Siena: { x: 51.9, y: 71.4 },
-    Ancona: { x: 55.44, y: 68.83 },
-    Roma: { x: 53.88, y: 74.38 },
-    Pisa: { x: 50.73, y: 69.49 },
-    Firenze: { x: 51.88, y: 68.16 },
-    Ferrara: { x: 53.28, y: 65.33 },
+    Siena:          { x: 51.9, y: 71.4 },
+    Ancona:         { x: 55.44, y: 68.83 },
+    Roma:           { x: 53.88, y: 74.38 },
+    Pisa:           { x: 50.73, y: 69.49 },
+    Firenze:        { x: 51.88, y: 68.16 },
+    Ferrara:        { x: 53.28, y: 65.33 },
 
     // Naples
-    Napoli: { x: 56.82, y: 76.85 },
-    Salerno: { x: 58.43, y: 79.5 },
-    Salento: { x: 61.58, y: 75.56 },
+    Napoli:         { x: 56.82, y: 76.85 },
+    Salerno:        { x: 58.43, y: 79.5 },
+    Salento:        { x: 61.58, y: 75.56 },
 
     // Sicily
-    Palermo: { x: 53.46, y: 85.15 },
-    Messina: { x: 56.81, y: 85.42 },
-    Malta: { x: 56.18, y: 90.45 },
+    Palermo:        { x: 53.46, y: 85.15 },
+    Messina:        { x: 56.81, y: 85.42 },
+    Malta:          { x: 56.18, y: 90.45 },
 
     // Corsica & Sardinia
-    Corsica: { x: 48.71, y: 71.07 },
-    Cagliari: { x: 48.4, y: 80.6 },
+    Corsica:        { x: 48.71, y: 71.07 },
+    Cagliari:       { x: 48.4, y: 80.6 },
 
     // Westphalia
     Munster: { x: 46.61, y: 39.31 },
@@ -280,207 +279,349 @@ export const Locations = {
     Ceuta: { x: 25.37, y: 88.52 },
 
     // Algiers
-Oran:      { x: 0, y: 0 },
-Mitidja:   { x: 0, y: 0 },
-Kabylia:   { x: 0, y: 0 },
+    Oran:      { x: 35.69, y: 88.57 },
+    Mitidja:   { x: 39.47, y: 87.23 },
+    Kabylia:   { x: 42.43, y: 87.73 },
+    Tlemcen:   { x: 31.93, y: 90.74 },
 
-// Tunisia
-Bizerta:   { x: 0, y: 0 },
-Tunis:     { x: 0, y: 0 },
-Sousse:    { x: 0, y: 0 },
+    // Tunisia
+    Bizerta:   { x: 47.71, y: 87.28 },
+    Tunis:     { x: 49.81, y: 88.2 },
+    Sousse:    { x: 49.98, y: 91.85 },
 
-// North Sahara
-Gafsa:     { x: 47.01, y: 96.33 },
+    // North Sahara
+    Gafsa:     { x: 47.01, y: 96.33 },
 
-// Tripolitania
-Tripoli:   { x: 54.28, y: 97.05 },
+    // Tripolitania
+    Tripoli:   { x: 54.28, y: 97.05 },
 
-// Cyrenaica
-Benghazi:  { x: 64.84, y: 93.57 },
+    // Cyrenaica
+    Benghazi:  { x: 64.84, y: 93.57 },
 
-// Egypt
-Alexandria:{ x: 0, y: 0 },
-Damietta:  { x: 0, y: 0 },
-Cairo:     { x: 0, y: 0 },
-Faiyum:    { x: 0, y: 0 },
+    // Egypt
+    Alexandria:{ x: 76.87, y: 95.09 },
+    Damietta:  { x: 80.15, y: 94.92 },
+    Cairo:     { x: 78.74, y: 97.38 },
+    Faiyum:    { x: 77.29, y: 98.22 },
 
-// Palestine
-Jerusalem: { x: 0, y: 0 },
-Jaffa:     { x: 0, y: 0 },
-Gaza:      { x: 0, y: 0 },
+    // Palestine
+    Jerusalem: { x: 84.64, y: 96.27 },
+    Jaffa:     { x: 84.73, y: 93.03 },
+    Gaza:      { x: 82.89, y: 95.64 },
 
-// Syria
-Damascus:  { x: 0, y: 0 },
-Aleppo:    { x: 0, y: 0 },
-Tarabulus: { x: 0, y: 0 },
+    // Syria
+    Damascus:  { x: 86.34, y: 89.68 },
+    Aleppo:    { x: 87.23, y: 83.72 },
+    Tarabulus: { x: 85.87, y: 86.53 },
 
-// Cyprus
-Cyprus: { x: 0, y: 0 },
+    // Cyprus
+    Cyprus:     { x: 82.73, y: 88.11 },
 
-// Aegean Archipelago
-Creta: { x: 0, y: 0 },
-Naxos: { x: 0, y: 0 },
-Rhodes: { x: 0, y: 0 },
+    // Aegean Archipelago
+    Creta:     { x: 72.84, y: 89.14 },
+    Naxos:     { x: 73.26, y: 83.35 },
+    Rhodes:    { x: 75.35, y: 86.27 },
 
-// Karaman
-Konya:     { x: 0, y: 0 },
-Karaman:   { x: 0, y: 0 },
-Adana:     { x: 0, y: 0 },
+    // Karaman
+    Konya:     { x: 81.64, y: 80.37 },
+    Karaman:   { x: 82.28, y: 84.47 },
+    Adana:     { x: 84.91, y: 83.35 },
 
-// Greece
-Athens:    { x: 0, y: 0 },
-Morea:     { x: 0, y: 0 },
+    // Greece
+    Athens:    { x: 70.81, y: 82.23 },
+    Morea:     { x: 69.45, y: 86.3 },
+    Tirhala:       { x: 69.18, y: 78.25 },
 
-// Macedonia & Thrace
-Edirne:        { x: 0, y: 0 },
-Selanik:       { x: 0, y: 0 },
-Tirhala:       { x: 0, y: 0 },
-Constantinople:{ x: 0, y: 0 },
+    // Macedonia & Thrace
+    Edirne:        { x: 74.2, y: 72.55 },
+    Selanik:       { x: 70.54, y: 74.22 },
+    Constantinople:{ x: 76.91, y: 72.1 },
 
-// Wallachia & Bulgaria
-Nigbolu:   { x: 0, y: 0 },
-Silistre:  { x: 0, y: 0 },
-Tirgoviste:{ x: 0, y: 0 },
+    // Wallachia & Bulgaria
+    Nigbolu:   { x: 70.81, y: 68.11 },
+    Silistre:  { x: 75.95, y: 66.34 },
+    Tirgoviste:{ x: 72.06, y: 63.79 },
+    Buzau:  { x: 75.07, y: 62.01 },
 
 // Northern Anatolia
-Kastamonu: { x: 0, y: 0 },
-Ankara:    { x: 0, y: 0 },
-Hüdavendigar:{ x: 0, y: 0 },
-Kütahya:   { x: 0, y: 0 },
-Aydin:     { x: 0, y: 0 },
-Izmir:     { x: 0, y: 0 },
-Mentese:   { x: 0, y: 0 },
-Tekke:     { x: 0, y: 0 },
+Kastamonu: { x: 83.35, y: 71.12 },
+Ankara:    { x: 81.23, y: 76.62 },
+Hüdavendigar:{ x: 76.24, y: 75.76 },
+
+// Aydin
+Kütahya:   { x: 78.42, y: 78.85 },
+Izmir:     { x: 75.08, y: 81.1 },
+Mentese:   { x: 76.73, y: 84.09 },
+Teke:     { x: 78.87, y: 83.45 },
 
 // Rum
-Amasya:    { x: 0, y: 0 },
-Sivas:     { x: 0, y: 0 },
-Trebizond: { x: 0, y: 0 },
-Erzurum:   { x: 0, y: 0 },
+Amasya:    { x: 85.69, y: 73.88 },
+Sivas:     { x: 87.19, y: 76.36 },
+Trebizond: { x: 89.7, y: 73.13 },
+Erzurum:   { x: 91.9, y: 74.72 },
 
 // Kurdistan
-Urfa:      { x: 0, y: 0 },
-Mush:      { x: 0, y: 0 },
-Bitlis:    { x: 0, y: 0 },
+Urfa:      { x: 89.82, y: 81.61 },
+Mush:      { x: 91.91, y: 77.92 },
+Bitlis:    { x: 94.17, y: 79.06 },
+Mosul:     { x: 94.56, y: 82.23 },
 
 // Iraq
-Mosul:     { x: 0, y: 0 },
-Tikrit:    { x: 0, y: 0 },
-Kirkuk:    { x: 0, y: 0 },
-Baghdad:   { x: 0, y: 0 },
+Tikrit:    { x: 94.84, y: 86.67 },
+Kirkuk:    { x: 96.29, y: 85.11 },
+Baghdad:   { x: 96.62, y: 89.85 },
 
 // Armenia
-Yerevan:   { x: 0, y: 0 },
-Tabriz:    { x: 0, y: 0 },
+Yerevan:   { x: 95.9, y: 74.71 },
+Tabriz:    { x: 98.15, y: 79.75 },
+Tbilisi:   { x: 95.68, y: 70.22 },
 
 // Circassia
-Circassia: { x: 0, y: 0 },
-Imereti:   { x: 0, y: 0 },
-Guria:     { x: 0, y: 0 },
+Circassia: { x: 90.53, y: 64.52 },
+Imereti:   { x: 93.72, y: 67.72 },
+Guria:     { x: 92.76, y: 69.94 },
 
 // Caucasus
-Shirvan:   { x: 0, y: 0 },
-Tbilisi:   { x: 0, y: 0 },
+Shirvan:   { x: 99.27, y: 67.5 },
+Terek:      { x: 96.96, y: 63.43 },
 
 // Austria
-Wien:        { x: 0, y: 0 },
-Österreich:  { x: 0, y: 0 },
-Steiermark:  { x: 0, y: 0 },
-Budejovice:  { x: 0, y: 0 },
+Wien:        { x: 58.92, y: 53.63 },
+Österreich:  { x: 58.54, y: 50.43 },
+Steiermark:  { x: 56.58, y: 55.63 },
 
-// Dalmatia / Croatia & Bosnia
-Zagreb:      { x: 0, y: 0 },
-Rijeka:      { x: 0, y: 0 },
-Dubrovnik:   { x: 0, y: 0 },
-Dalmatia:    { x: 0, y: 0 },
-Bosna:       { x: 0, y: 0 },
-Hum:         { x: 0, y: 0 },
+// Bohemia
+Budejovice:  { x: 56.63, y: 49.36 },
+Praha:        { x: 57.32, y: 46.37 },
+Rudohori:     { x: 55.46, y: 45.23 },
+Olomouc:      { x: 60.51, y: 47.22 },
+
+// Croatia & Bosnia
+Zagreb:      { x: 59.9, y: 59.89 },
+Bosna:       { x: 62.18, y: 63.19 },
+Hum:         { x: 60.93, y: 66.05 },
+
+// Dalmatia 
+Rijeka:      { x: 57.26, y: 63.39 },
+Dubrovnik:   { x: 61.36, y: 70.07 },
+Dalmatia:    { x: 58.62, y: 67.79 },
 
 // Serbia & Albania
-Beograd:     { x: 0, y: 0 },
-Smederevo:   { x: 0, y: 0 },
-Kosovo:      { x: 0, y: 0 },
-Albania:     { x: 0, y: 0 },
+Beograd:     { x: 65.83, y: 64.36 },
+Smederevo:   { x: 67.17, y: 65.14 },
+Kosovo:      { x: 66, y: 70.87 },
+Albania:     { x: 65.01, y: 74.46 },
 
-// Royal Hungary / Hungarian Plain
-Sopron:      { x: 0, y: 0 },
-Poszony:     { x: 0, y: 0 },
-Pest:        { x: 0, y: 0 },
-Szepes:      { x: 0, y: 0 },
-Szabolcs:    { x: 0, y: 0 },
+// Royal Hungary
+Sopron:      { x: 60.54, y: 55.01 },
+Poszony:     { x: 61.49, y: 51.31 },
+Szepes:      { x: 64.79, y: 51.01 },
+
+// Hungarian Plain
+Pest:        { x: 63.01, y: 55.12 },
+Szabolcs:    { x: 66.77, y: 54.4 },
 
 // Transylvania
-Torda:       { x: 0, y: 0 },
-Hunyad:      { x: 0, y: 0 },
+Torda:       { x: 70.72, y: 57.72 },
+Hunyad:      { x: 68.97, y: 59.84 },
 
-// Baltic States
-Reval:        { x: 0, y: 0 },
-Riga:         { x: 0, y: 0 },
-Livland:      { x: 0, y: 0 },
-Estonia:      { x: 0, y: 0 },
-Goldingen:    { x: 0, y: 0 },
+// Estonia & Livonia
+Reval:        { x: 71.02, y: 19.59 },
+Riga:         { x: 70.57, y: 25.56 },
+Livland:      { x: 71.48, y: 22.96 },
+Goldingen:    { x: 67.25, y: 24.4 },
 
 // Lithuania
-Zemaitija:    { x: 0, y: 0 },
-Kaunas:       { x: 0, y: 0 },
-Vilnius:      { x: 0, y: 0 },
-Polock:       { x: 0, y: 0 },
-Minsk:        { x: 0, y: 0 },
+Zemaitija:    { x: 69.07, y: 29.5 },
+Kaunas:       { x: 70.3, y: 32.93 },
+Vilnius:      { x: 71.72, y: 35.31 },
 
 // Red Ruthenia
-Volhynia:     { x: 0, y: 0 },
-Novgorodek:   { x: 0, y: 0 },
-Lwow:         { x: 0, y: 0 },
+Volhynia:     { x: 71.37, y: 43.23 },
+Nowogrodek:   { x: 73.33, y: 38.46 },
+Lwow:         { x: 71.7, y: 50.2 },
 
 // Northern Ruthenia
-Smolensk:     { x: 0, y: 0 },
-Novgorodok:   { x: 0, y: 0 },
+Smolensk:     { x: 80.93, y: 35.05 },
+Minsk:        { x: 76.01, y: 36.33 },
+Polock:       { x: 77.3, y: 30.62 },
 
 // Eastern Ruthenia
-Cernigovas:   { x: 0, y: 0 },
-Poltava:      { x: 0, y: 0 },
-Kiev:         { x: 0, y: 0 },
-Podolia:      { x: 0, y: 0 },
-Ukraine:      { x: 0, y: 0 },
+Cernigovas:   { x: 82.3, y: 43.24 },
+Poltava:      { x: 84.21, y: 49.19 },
+
+// Ukraine
+Kiev:         { x: 78.95, y: 47.18 },
+Podolia:      { x: 75.59, y: 50.86 },
 
 // Moldavia
-Suceava:      { x: 0, y: 0 },
-Moldavia:     { x: 0, y: 0 },
-Bessarabia:   { x: 0, y: 0 },
+Suceava:      { x: 75.27, y: 56.36 },
+Yedisan:     { x: 80.62, y: 57.61 },
+Bessarabia:   { x: 77.83, y: 60.63 },
 
 // Crimea
-Crimea:       { x: 0, y: 0 },
-Caffa:        { x: 0, y: 0 },
-Azov:         { x: 0, y: 0 },
-YediShkul:    { x: 0, y: 0 },
-KyrykYar:    { x: 0, y: 0 },
+Crimea:       { x: 84.11, y: 60.34 },
+Caffa:        { x: 86.07, y: 61.44 },
+Azov:         { x: 90.13, y: 56.36 },
+YediShkul:    { x: 84.98, y: 57.34 },
+KyzylYar:    { x: 86.91, y: 56.04 },
+
+// Novgorod
+Pskov:        { x: 75.78, y: 22.67 },
+Novgorod:     { x: 80.16, y: 21.85 },
+
+// Moscow & Ryazan
+Rzhev:        { x: 82.7, y: 27.91 },
+Tver:         { x: 85.46, y: 28.46 },
+Moskva:       { x: 86.58, y: 30.86 },
+Ryazan:       { x: 89.38, y: 36.2 },
+Odojev:       { x: 86.26, y: 37.71 },
 
 // Central Russia
-Pskov:        { x: 0, y: 0 },
-Novgorod:     { x: 0, y: 0 },
-Rzhev:        { x: 0, y: 0 },
-Tver:         { x: 0, y: 0 },
-Moskva:       { x: 0, y: 0 },
-Yaroslavl:    { x: 0, y: 0 },
-Suzdal:       { x: 0, y: 0 },
-Vladimir:     { x: 0, y: 0 },
-Murom:        { x: 0, y: 0 },
-Ryazan:       { x: 0, y: 0 },
-Odojev:       { x: 0, y: 0 },
-Kasimov:      { x: 0, y: 0 },
+Yaroslavl:    { x: 88.71, y: 25.24 },
+Suzdal:       { x: 91.52, y: 27.85 },
+Vladimir:     { x: 90.41, y: 32.53 },
+Murom:        { x: 93.44, y: 32.4 },
+Kasimov:      { x: 91.82, y: 35.35 },
+
+// Vologda
+Vologda:      { x: 88.72, y: 20.75 },
+Beloozero:     { x: 86.7, y: 16.69 },
 
 // Perm
-Vologda:      { x: 0, y: 0 },
-Belozero:     { x: 0, y: 0 },
-Viakta:       { x: 0, y: 0 },
-Perm:         { x: 0, y: 0 },
+Viakta:       { x: 98.27, y: 22.94 },
+Perm:         { x: 98.47, y: 16.97 },
+Galich:       { x: 93.47, y: 24.92 },
+NizhnyNovgorod: { x: 94.42, y: 28.95 },
 
-// Lower Don & Volga
-Tambov:       { x: 0, y: 0 },
-Saratov:      { x: 0, y: 0 },
-LowerDon:     { x: 0, y: 0 },
-Sarai:        { x: 0, y: 0 },
-Astrakhan:    { x: 0, y: 0 },
-Majar:        { x: 0, y: 0 },
+// Kazan
+Kazan:        { x: 97.5, y: 31.62 },
+
+// Saratov
+Tambov:       { x: 91.35, y: 40.42 },
+Saratov:      { x: 96.34, y: 44.86 },
+LowerDon:     { x: 92.32, y: 51.26 },
+
+// Astrakhan
+Sarai:        { x: 96.95, y: 52.14 },
+Astrakhan:    { x: 98.97, y: 55.5 },
+Majar:        { x: 93.47, y: 59.87 },
+
+// Karelia
+Olonets:      { x: 82.34, y: 12.95 },
+Ladoga:       { x: 80.2, y: 17.77 },
+Neva:         { x: 77.95, y: 18.67 },
+
+// Pomorye
+Arkhangel:    { x: 83.01, y: 3.58 },
+Kargopol:     { x: 82.19, y: 6.27 },
+
+// Prussia
+Königsberg:   { x: 66.03, y: 31.03 },
+Marienburg:   { x: 64.6, y: 33.29 },
+Danzig:       { x: 62.75, y: 32.1 },
+Kulm:         { x: 62.83, y: 36.38 },
+
+// Mazovia & Malopolska
+Krakow:{ x: 65.06, y: 46.95 },
+Sandomierz: { x: 67.04, y: 45.88 },
+Lublin:      { x: 68.28, y: 44.07 },
+Warszawa: { x: 66.87, y: 40.17 },
+
+// Wielkopolska
+Poznan: { x: 60.01, y: 39.3 },
+Kalisz: { x: 62.37, y: 40.28 },
+Sieradz: { x: 62.94, y: 44.1 },
+Silesia: { x: 60.17, y: 44 },
+
+// Tirol
+Tirol: { x: 51.11, y: 55.51 },
+Lienz: { x: 53.27, y: 56.48 },
+Karnten: { x: 54.95, y: 56.31 },
+
+// Bavaria & Swabia
+Ulm: { x: 49.28, y: 49.79 },
+Augsburg: { x: 50.75, y: 52.36 },
+Munchen: { x: 52.84, y: 52.39 },
+Salzburg: { x: 54.32, y: 53.49 },
+Landshut: { x: 54.32, y: 50.82 },
+Regensburg: { x: 52.95, y: 48.64 },
+
+// Saxony
+Nurnberg: { x: 51.58, y: 47.67 },
+Leipzig: { x: 51.67, y: 42.77 },
+Dresden: { x: 55.45, y: 42.67 },
+Wittenberg: { x: 53.98, y: 40.72 },
+
+// Lower Saxony
+Bremen: { x: 47.6, y: 35.24 },
+Braunschweig: { x: 50.14, y: 40.63 },
+Magdeburg: { x: 52.35, y: 38.97 },
+Hannover: { x: 49.23, y: 38.25 },
+Hamburg: { x: 49.64, y: 34.42 },
+
+// Brandenburg
+Berlin: { x: 56.16, y: 36.44 },
+Potsdam: { x: 54.39, y: 37.67 },
+Altmark: { x: 52.78, y: 36.25 },
+
+// Pomerania
+Stettin: { x: 57.58, y: 33.7 },
+Stralsund: { x: 55.48, y: 31.83 },
+Mecklenburg: { x: 53.71, y: 32.26 },
+Lubeck: { x: 51.93, y: 32.93 },
+
+// Jutland
+Ostjylland: { x: 49.9, y: 24.58 },
+Vestjylland: { x: 47.18, y: 24.46 },
+Slesvig: { x: 48.46, y: 29.17 },
+Holstein: { x: 49.94, y: 31.13 },
+
+// Sjælland & Fyn
+Sjælland: { x: 53.06, y: 26.72 },
+
+// Göteland og Skane
+Östergötland: { x: 59.6, y: 19.96 },
+Lund: { x: 56.48, y: 24.83 },
+Gotland: { x: 62.68, y: 22.22 },
+
+// Svealand
+Bergslagen: { x: 57.76, y: 13.16 },
+Stockholm: { x: 62.14, y: 16.59 },
+
+// Norrland
+Halsingland: { x: 61.38, y: 7.99 },
+
+// Ostlandet
+Borgarsysla: { x: 53.06, y: 16.41 },
+Akershus: { x: 52.19, y: 13.34 },
+
+// Trondelag
+Trondelag: { x: 52.07, y: 4.83 },
+
+// Vestlandet
+Bergenhus: { x: 45.21, y: 11.66 },
+
+// Finland
+Nyland: { x: 72.59, y: 15.82 },
+Abo: { x: 66.79, y: 13.5 },
+
+// Ostrobothnia
+Österbotten: { x: 70.21, y: 4.53 },
+
+// Northern & central Asia
+Ural: { x: 86.2, y: 3.9 },
+WestSiberia: { x: 89.53, y: 3.78 },
+EastSiberia: { x: 93.07, y: 6.45 },
+Okhotsk: { x: 96.32, y: 6.89 },
+Volga: { x: 84.92, y: 7.49 },
+Tyumen: { x: 87.73, y: 7.21 },
+Oirat: { x: 90.7, y: 9.79 },
+Nogai: { x: 85.1, y: 11.14 },
+Kazakhstan: { x: 87.1, y: 11.08 },
+Chagatai: { x: 89.17, y: 11.83 },
+Mongolia: { x: 93.09, y: 11.33 },
+Manchu: { x: 94.81, y: 11.67 },
+Furdan: { x: 96.3, y: 11.89 },
 
 };
