@@ -53,90 +53,90 @@ export const Locations = {
     London:         { x: 33.17, y: 39.25 },
 
     // Leon
-    Galicia:        { x: 20.91, y: 63.19 },
-    Salamanca:      { x: 23.52, y: 72.4 },
-    Badajoz:        { x: 23.29, y: 78.33 },
+    Galicia:        { x: 20.91, y: 63.89 },
+    Salamanca:      { x: 23.52, y: 73.2 },
+    Badajoz:        { x: 23.29, y: 79.15 },
 
     // Castile
-    Murcia:         { x: 31.05, y: 81.8 },
-    Burgos:         { x: 27.04, y: 68.52 },
-    Madrid:         { x: 27.49, y: 73.63 },
+    Murcia:         { x: 31.05, y: 82.7 },
+    Burgos:         { x: 27.05, y: 69.25 },
+    Madrid:         { x: 27.49, y: 74.46 },
 
     // Aragon
-    Valencia:       { x: 32.82, y: 76.25 },
-    Zaragoza:       { x: 32.98, y: 70.87 },
-    Navarra:        { x: 30.54, y: 66.29 },
-    Barcelona:      { x: 37.46, y: 71.53 },
-    Baleares:       { x: 38.44, y: 77.49 },
+    Valencia:       { x: 32.82, y: 77.05 },
+    Zaragoza:       { x: 32.98, y: 71.65 },
+    Navarra:        { x: 30.54, y: 67 },
+    Barcelona:      { x: 37.46, y: 72.28 },
+    Baleares:       { x: 38.44, y: 78.29 },
 
     // Andalucia
-    Córdoba:        { x: 25.63, y: 80.48 },
-    Sevilla:        { x: 23.46, y: 81.98 },
-    Granada:        { x: 27.29, y: 82.53 },
-    Gibraltar:      { x: 24.21, y: 84.97 },
+    Córdoba:        { x: 25.63, y: 81.35 },
+    Sevilla:        { x: 23.47, y: 82.9 },
+    Granada:        { x: 27.29, y: 83.37 },
+    Gibraltar:      { x: 24.21, y: 85.85 },
   
     // Portugal
-    Beira:          { x: 21.03, y: 74.03 },
-    Porto:          { x: 19.76, y: 71.12 },
-    Lisboa:         { x: 18.93, y: 77 },
+    Beira:          { x: 21.03, y: 74.83 },
+    Porto:          { x: 19.76, y: 71.92 },
+    Lisboa:         { x: 18.95, y: 77.85 },
 
     // Macoronesia
-    Madeira:        { x: 14.55, y: 88.82 },
-    Canaries:       { x: 14.63, y: 97 },
+    Madeira:        { x: 14.56, y: 89.82 },
+    Canaries:       { x: 14.64, y: 98.06 },
 
     // Seine
-    Picardie:       { x: 36.32, y: 43.91 },
-    Artois:         { x: 37.82, y: 44.31 },
-    Paris:          { x: 36.55, y: 48.91 },
-    Champagne:      { x: 40.32, y: 48.49 },
+    Picardie:       { x: 36.32, y: 44.37 },
+    Artois:         { x: 37.82, y: 44.8 },
+    Paris:          { x: 36.56, y: 49.45 },
+    Champagne:      { x: 40.33, y: 49.01 },
 
     // Brittany & Normandy
-    Rennais:        { x: 29.63, y: 49.67 },
-    Nantes:         { x: 30.46, y: 52.84 },
-    Normandie:      { x: 32.5, y: 47.57 },
-    Caux:           { x: 34.25, y: 45.93 },
-    Maine:          { x: 33.4, y: 51.55 },
+    Rennais:        { x: 29.63, y: 50.18 },
+    Nantes:         { x: 30.48, y: 53.37 },
+    Normandie:      { x: 32.51, y: 48.08 },
+    Caux:           { x: 34.25, y: 46.41 },
+    Maine:          { x: 33.4, y: 52.05 },
 
     // Aquitaine
-    Anjou:          { x: 33.24, y: 54.37 },
-    Poitou:         { x: 34.27, y: 57.37 },
-    Saintonge:      { x: 32.06, y: 56.83 },
-    Armagnac:       { x: 33.67, y: 64.76 },
-    Bordeaux:       { x: 32.31, y: 60.39 },
+    Anjou:          { x: 33.25, y: 54.95 },
+    Poitou:         { x: 34.26, y: 58.05 },
+    Saintonge:      { x: 32.07, y: 57.5 },
+    Armagnac:       { x: 33.67, y: 65.54 },
+    Bordeaux:       { x: 32.31, y: 61.04 },
 
     // Languedoc
-    Languedoc:      { x: 36.87, y: 65.6 },
-    Provence:       { x: 43.19, y: 67.73 },
-    Avignon:        { x: 40.62, y: 62.91 },
-    Montpellier:    { x: 39.96, y: 66.17 },
+    Toulouse:       { x: 36.87, y: 66.41 },
+    Provence:       { x: 43.2, y: 68.47 },
+    Avignon:        { x: 40.63, y: 63.62 },
+    Montpellier:    { x: 39.97, y: 66.93 },
 
     // Loire
-    Berry:          { x: 37.67, y: 55.05 },
-    Bourbon:        { x: 39, y: 57.07 },
-    Limousin:       { x: 36.36, y: 60.45 },
-    Orléanais:      { x: 35.68, y: 53.35 },
+    Berry:          { x: 37.68, y: 55.7 },
+    Bourbon:        { x: 39.01, y: 57.7 },
+    Limousin:       { x: 36.38, y: 61.15 },
+    Orléanais:      { x: 35.69, y: 53.99 },
 
     // Burgundy
-    Savoie:         { x: 43.61, y: 59.61 },
-    Bourgogne:      { x: 41.14, y: 54.69 },
-    Lyonnais:       { x: 41.36, y: 59.75 },
-    FranchéComte:   { x: 43.27, y: 53.89 },
+    Savoie:         { x: 43.63, y: 60.26 },
+    Bourgogne:      { x: 41.14, y: 55.33 },
+    Lyonnais:       { x: 41.38, y: 60.52 },
+    FranchéComte:   { x: 43.29, y: 54.54 },
 
 
     // Flanders & Wallonia
-    Namur:          { x: 40.75, y: 45.03 },
-    Ghent:          { x: 39.88, y: 41.23 },
-    Antwerpen:      { x: 41.45, y: 41.09 },
-    Liege:          { x: 43.18, y: 42.78 },
-    Luxembourg:     { x: 43.23, y: 46.15 },
-    Vlaanderen:     { x: 38.28, y: 40.85 },
+    Namur:          { x: 40.74, y: 45.59 },
+    Ghent:          { x: 39.89, y: 41.68 },
+    Antwerpen:      { x: 41.45, y: 41.61 },
+    Liege:          { x: 43.2, y: 43.28 },
+    Luxembourg:     { x: 43.22, y: 46.71 },
+    Vlaanderen:     { x: 38.27, y: 41.36 },
 
     // Netherlands
-    Amsterdam:      { x: 41.4, y: 35.94 },
-    Zeeland:        { x: 40.27, y: 38.25 },
-    Breda:          { x: 42.81, y: 39.01 },
-    Friesland:      { x: 43.65, y: 33.68 },
-    Gelre:          { x: 43.94, y: 36.96 },
+    Amsterdam:      { x: 41.39, y: 36.39 },
+    Zeeland:        { x: 40.28, y: 38.67 },
+    Breda:          { x: 42.81, y: 39.56 },
+    Friesland:      { x: 43.63, y: 34.09 },
+    Gelre:          { x: 43.95, y: 37.35 },
 
     // Lombardy
     Piedmont: { x: 45.65, y: 63.23 },
