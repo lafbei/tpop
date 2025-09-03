@@ -9,7 +9,6 @@ const makePlayer = (id: PlayerId, init?: Partial<PlayerState>): PlayerState => (
   meta: {
     tag: id.slice(0, 3).toUpperCase(),
     name: id.charAt(0).toUpperCase() + id.slice(1),
-    flagPath: `src/assets/flags/${id}.png`,
     ruler: "Regency Council",
     stability: 0,
     ...(init?.meta ?? {}),

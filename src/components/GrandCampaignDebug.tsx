@@ -4,7 +4,7 @@ import data from "../data/s2-01-grand-campaign.json";
 import type { GameState } from "../types/eu-pop";
 
 export default function GrandCampaignDebug() {
-  const game = data as GameState;
+  const game = data as unknown as GameState;
 
   const summary = useMemo(() => {
     const players = Object.entries(game.players).map(([name, p]) => ({

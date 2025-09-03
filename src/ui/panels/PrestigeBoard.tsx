@@ -18,7 +18,7 @@ export const PrestigeBoard: React.FC = () => {
     <div style={{
       position: "fixed",
       top: 92,
-      left: 12,
+      right: 12,
       zIndex: 1001,
       width: 150,
       background: "rgba(20,20,24,0.85)",

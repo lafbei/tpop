@@ -12,7 +12,7 @@ import { PieceSprite } from "../map/Piece";
 type Locs = Record<string, { x: number; y: number }>;
 
 export default function GrandCampaignMap({ captureMode = false, showPins = true, showUnits = true }) {
-  const game = state as GameState;
+  const game = state as unknown as GameState;
 
   // --- image sizing so overlay matches exactly ---
   const imgRef = useRef<HTMLImageElement>(null);

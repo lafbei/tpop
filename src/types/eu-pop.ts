@@ -48,7 +48,7 @@ export type GlobalState = {
 export type GameState = {
   scenario: string;
   timePeriod: string;
-  age: "I" | "II" | "III" | "IV";
+  age: number;
   round: number;
   turnOrder: string[];
   firstPlayer: string;

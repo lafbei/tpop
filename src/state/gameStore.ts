@@ -12,6 +12,7 @@ type GameStore = {
 };
 
 export const useGameStore = create<GameStore>((set) => ({
+ 
   game: loadGrandCampaign(),
   setAge: (age) => set((s) => ({ game: { ...s.game, age } })),
   nextRound: () => set((s) => ({ game: { ...s.game, round: s.game.round + 1 } })),

@@ -12,7 +12,6 @@ export interface Economy {
 export interface PlayerMeta {
   tag: string;
   name: string;
-  flagPath: string;
   ruler: string;
   stability: number;  // -3..+3
 }
