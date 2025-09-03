@@ -25,7 +25,7 @@ export const PlayerHUDBar: React.FC = () => {
         <StatPill label="Upkeep" value={p.economy.upkeep} title="Per-round expenses" />
         <StatPill label="Tax" value={p.economy.taxIncome} title="Per-round income" />
         <StatPill label="Net" value={net} title="Income - expenses (per round)" />
-        <StatPill label="PRE" value={p.prestige} title="Prestige" />  {/* <-- NEW */}
+        <StatPill label="Manpower" value={'todo'} title="Manpower" />
       </div>
 
       <div className="hud-right">
