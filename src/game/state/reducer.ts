@@ -15,7 +15,8 @@ const makePlayer = (id: PlayerId, init?: Partial<PlayerState>): PlayerState => (
   },
   points: { adm: 3, dip: 3, mil: 3, ...(init?.points ?? {}) },
   economy: { treasury: 15, taxIncome: 0, upkeep: 0, ...(init?.economy ?? {}) },
-  prestige: init?.prestige ?? 0, // <-- seed
+  prestige: init?.prestige ?? 0,
+  manpower: init?.manpower ?? 0,
 });
 
 export const makeInitialGameState = (overrides?: Partial<GameState>): GameState => {
@@ -38,7 +39,9 @@ export type Action =
   | { type: "ADJUST_POINTS"; id: PlayerId; adm?: number; dip?: number; mil?: number }
   | { type: "SET_ECONOMY"; id: PlayerId; patch: Partial<PlayerState["economy"]> }
   | { type: "SET_PRESTIGE"; id: PlayerId; value: number }          // <-- NEW
-  | { type: "ADJUST_PRESTIGE"; id: PlayerId; delta: number }        // <-- NEW
+  | { type: "ADJUST_PRESTIGE"; id: PlayerId; delta: number }
+  | { type: "SET_MANPOWER"; id: PlayerId; value: number }
+  | { type: "ADJUST_MANPOWER"; id: PlayerId; delta: number }
   | { type: "SET_UPKEEP_FROM_BOARD"; board: BoardState }
   | { type: "NEXT_ROUND" }
   | { type: "SET_ROUNDS_PER_AGE"; value: number };
@@ -73,15 +76,27 @@ export const reducer = (state: GameState, action: Action): GameState => {
       return { ...state, players: { ...state.players, [action.id]: next } };
     }
 
-    case "SET_PRESTIGE": {                      // <-- NEW
+    case "SET_PRESTIGE": {
       const p = state.players[action.id];
       const next = { ...p, prestige: action.value };
       return { ...state, players: { ...state.players, [action.id]: next } };
     }
 
-    case "ADJUST_PRESTIGE": {                   // <-- NEW
+    case "ADJUST_PRESTIGE": {
       const p = state.players[action.id];
       const next = { ...p, prestige: p.prestige + action.delta };
+      return { ...state, players: { ...state.players, [action.id]: next } };
+    }
+
+    case "SET_MANPOWER": {
+      const p = state.players[action.id];
+      const next = { ...p, manpower: clamp(action.value, 0, 20) };
+      return { ...state, players: { ...state.players, [action.id]: next } };
+    }
+
+    case "ADJUST_MANPOWER": {
+      const p = state.players[action.id];
+      const next = { ...p, manpower: p.manpower + action.delta };
       return { ...state, players: { ...state.players, [action.id]: next } };
     }
 

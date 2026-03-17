@@ -21,7 +21,8 @@ export interface PlayerState {
   meta: PlayerMeta;
   points: MonarchPoints;
   economy: Economy;
-  prestige: number;   // <-- NEW
+  prestige: number;
+  manpower: number;
 }
 
 export interface GameTurn { turn: number; round: number; }

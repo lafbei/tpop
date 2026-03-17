@@ -113,7 +113,6 @@ export default function GrandCampaignMap({ captureMode = false, showPins = true,
                   title={name}
                   onClick={(e) => {
                     e.stopPropagation();
-                    // eslint-disable-next-line no-alert
                     alert(name);
                   }}
                 />
